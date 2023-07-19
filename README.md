@@ -25,8 +25,8 @@ This is a solution to the [Meme Generator project on Scrimba](https://scrimba.co
 
 ### Screenshot
 
-![screenshot](/src/screenshots/screenshot.png)
 
+<img src="https://github.com/sivajisj/meme-generator-react/blob/main/src/components/dc.png?raw=true"/>
 ### Links
 
 - Live Site URL: [@Netlify](https://meme-generator-xdelmo.netlify.app/)
