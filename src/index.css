@@ -1,0 +1,140 @@
+@font-face {
+  font-family: "Impact";
+  src: url("/fonts/Impact.woff2") format("woff2"),
+    url("/fonts/Impact.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f9f9f9;
+  font-family: "Karla", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Styles */
+.main-wrapper {
+  background-color: #ffffff;
+  margin: 0 auto;
+  max-width: 550px;
+}
+
+.form-input {
+  border: 1px solid #d5d4d8;
+  border-radius: 5px;
+  box-shadow: none;
+  font-family: inherit;
+  height: 35px;
+  outline: none;
+  padding: 10px;
+  width: 100%;
+}
+
+.form-input:focus {
+  border-color: #711f8d;
+}
+
+.form-button {
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  border: 0;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: inherit;
+  letter-spacing: -0.1px;
+}
+
+.main__header {
+  align-items: center;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.main__header-logo {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main__header-logo-text {
+  font-size: 21px;
+  margin: 0 0 0 7px;
+}
+
+.main__header-title {
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0 0;
+}
+
+/* Meme form */
+.meme-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 36px;
+}
+
+.meme-form__item {
+  width: calc(50% - 8.5px);
+}
+
+.meme-form__label {
+  display: none;
+}
+
+.meme-form__button {
+  flex: 0 0 auto;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 15px;
+  padding: 10px 0;
+  width: 100%;
+}
+
+/* Meme image */
+.meme-image-wrapper {
+  position: relative;
+  padding: 0 36px 55px;
+}
+
+.meme-image {
+  width: 100%;
+}
+
+.meme-image__text {
+  color: #ffffff;
+  font-size: 32px;
+  font-family: "Impact", Karla, sans-serif;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+  margin: 0;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  transform: translateX(-50%);
+  width: calc(100% - 92px);
+}
+
+.meme-image__text-top {
+  top: 16px;
+}
+
+.meme-image__text-bottom {
+  bottom: 72px;
+}
